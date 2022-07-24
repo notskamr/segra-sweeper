@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "The Bold Font";
+    src: url(theboldfont.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Nexa Bold";
+    src: url("Nexa\ Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Nexa Light";
+    src: url("Nexa\ Light.otf") format("opentype");
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+#title {
+    font-size: 8.5vw;
+    color: rgb(255, 255, 255);
+    font-family: "The Bold Font";
+    text-shadow: 5px 5px rgb(112, 86, 226);
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.stepholder {
+    border-radius: 2rem;
+    background-color: white;
+    padding: 1rem;
+}
